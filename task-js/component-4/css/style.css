@@ -1,0 +1,134 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/roboto-regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/roboto-700.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  margin: 0;
+  color: white;
+  background-color: black;
+  font-family: "Roboto", sans-serif;
+  background-image: url("../img/vector.svg");
+  background-repeat: no-repeat;
+  background-size: 100vw auto;
+  background-position: 50vw 30vh;
+}
+
+.range_container {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  padding: 30px;
+  padding-top: 40px;
+  margin: 50px auto;
+  background-color: #7c4eff;
+  border: 5px solid #c7b2ff;
+}
+
+.sliders_control {
+  position: relative;
+  min-height: 50px;
+}
+
+.form_control {
+  position: relative;
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-around;
+  font-size: 24px;
+  line-height: 28px;
+  color: #635a5a;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  pointer-events: all;
+  width: 34px;
+  height: 64px;
+  background-color: #25daa5;
+  cursor: pointer;
+  border-radius: 3px;
+  border: 2px solid #000;
+}
+
+input[type="range"]::-webkit-slider-thumb:hover {
+  background-color: #25daa5;
+}
+
+input[type="range"]::-webkit-slider-thumb:active {
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+input[type="range"]::-moz-range-thumb {
+  -webkit-appearance: none;
+  pointer-events: all;
+  width: 34px;
+  height: 64px;
+  background-color: #25daa5;
+  cursor: pointer;
+  border-radius: 3px;
+  border: 2px solid #000;
+}
+
+.input_icon {
+  display: block;
+  height: 15px;
+  margin-bottom: 5px;
+}
+
+.input_icon--left {
+  border-left: 3px solid white;
+}
+
+.input_icon--right {
+  border-right: 3px solid white;
+}
+
+.form_input--number {
+  display: block;
+  width: 120px;
+  height: 100px;
+  font: inherit;
+  text-align: center;
+  font-size: 82px;
+  line-height: 100px;
+  font-weight: 700;
+  color: white;
+  border: none;
+  background: black;
+  border-radius: 3px;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  opacity: 1;
+}
+
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 28px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  background-color: white;
+  pointer-events: none;
+}
+
+input[type="range"].fromSlider {
+  height: 0;
+  top: 14px;
+  z-index: 1;
+}

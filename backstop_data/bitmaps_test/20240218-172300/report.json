@@ -1,0 +1,80 @@
+{
+  "testSuite": "BackstopJS",
+  "tests": [
+    {
+      "pair": {
+        "reference": "..\\..\\test-js\\component-2\\reference\\slider_11.png",
+        "test": "..\\bitmaps_test\\20240218-172300\\slider_11.png",
+        "selector": "document",
+        "fileName": "slider_11.png",
+        "label": "slider 1.1",
+        "misMatchThreshold": 1,
+        "url": "file://C:\\Users\\Asus\\Desktop\\html олимпиада\\project\\task-js\\component-2\\index.html?pagination=0&loop=0",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 57.712871287128706,
+          "misMatchPercentage": "57.71",
+          "analysisTime": 65
+        },
+        "diffImage": "..\\bitmaps_test\\20240218-172300\\failed_diff_slider_11.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\..\\test-js\\component-2\\reference\\slider_12.png",
+        "test": "..\\bitmaps_test\\20240218-172300\\slider_12.png",
+        "selector": "document",
+        "fileName": "slider_12.png",
+        "label": "slider 1.2",
+        "misMatchThreshold": 1,
+        "url": "file://C:\\Users\\Asus\\Desktop\\html олимпиада\\project\\task-js\\component-2\\index.html?pagination=0&loop=0",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 54.934315382757795,
+          "misMatchPercentage": "54.93",
+          "analysisTime": 63
+        },
+        "diffImage": "..\\bitmaps_test\\20240218-172300\\failed_diff_slider_12.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\..\\test-js\\component-2\\reference\\slider_13.png",
+        "test": "..\\bitmaps_test\\20240218-172300\\slider_13.png",
+        "selector": "document",
+        "fileName": "slider_13.png",
+        "label": "slider 1.3",
+        "misMatchThreshold": 1,
+        "url": "file://C:\\Users\\Asus\\Desktop\\html олимпиада\\project\\task-js\\component-2\\index.html?pagination=0&loop=0",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 63.202608065684615,
+          "misMatchPercentage": "63.20",
+          "analysisTime": 55
+        },
+        "diffImage": "..\\bitmaps_test\\20240218-172300\\failed_diff_slider_13.png"
+      },
+      "status": "fail"
+    }
+  ]
+}

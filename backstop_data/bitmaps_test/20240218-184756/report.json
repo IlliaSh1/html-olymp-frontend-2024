@@ -1,0 +1,53 @@
+{
+  "testSuite": "BackstopJS",
+  "tests": [
+    {
+      "pair": {
+        "reference": "..\\..\\test-js\\component-4\\reference\\range_21.png",
+        "test": "..\\bitmaps_test\\20240218-184756\\range_21.png",
+        "selector": "#slider-2",
+        "fileName": "range_21.png",
+        "label": "range 2.1",
+        "misMatchThreshold": 2,
+        "url": "file://C:\\Users\\Asus\\Desktop\\html олимпиада\\project\\task-js\\component-4\\index.html",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0,
+          "misMatchPercentage": "0.00",
+          "analysisTime": 20
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\..\\test-js\\component-4\\reference\\range_22.png",
+        "test": "..\\bitmaps_test\\20240218-184756\\range_22.png",
+        "selector": "#slider-2",
+        "fileName": "range_22.png",
+        "label": "range 2.2",
+        "misMatchThreshold": 2,
+        "url": "file://C:\\Users\\Asus\\Desktop\\html олимпиада\\project\\task-js\\component-4\\index.html",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0,
+          "misMatchPercentage": "0.00",
+          "analysisTime": 19
+        }
+      },
+      "status": "pass"
+    }
+  ]
+}

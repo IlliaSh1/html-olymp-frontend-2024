@@ -1,0 +1,77 @@
+{
+  "testSuite": "BackstopJS",
+  "tests": [
+    {
+      "pair": {
+        "reference": "..\\..\\test-js\\component-1\\reference\\accordeon_11.png",
+        "test": "..\\bitmaps_test\\20240218-162926\\accordeon_11.png",
+        "selector": "document",
+        "fileName": "accordeon_11.png",
+        "label": "accordeon 1.1",
+        "misMatchThreshold": 4,
+        "url": "file://C:\\Users\\Asus\\Desktop\\html олимпиада\\project\\task-js\\component-1\\index.html?tabs_limit=0",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 2.4553864168618267,
+          "misMatchPercentage": "2.46",
+          "analysisTime": 126
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\..\\test-js\\component-1\\reference\\accordeon_12.png",
+        "test": "..\\bitmaps_test\\20240218-162926\\accordeon_12.png",
+        "selector": "document",
+        "fileName": "accordeon_12.png",
+        "label": "accordeon 1.2",
+        "misMatchThreshold": 4,
+        "url": "file://C:\\Users\\Asus\\Desktop\\html олимпиада\\project\\task-js\\component-1\\index.html?tabs_limit=0",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 1.7209016393442622,
+          "misMatchPercentage": "1.72",
+          "analysisTime": 132
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\..\\test-js\\component-1\\reference\\accordeon_13.png",
+        "test": "..\\bitmaps_test\\20240218-162926\\accordeon_13.png",
+        "selector": "document",
+        "fileName": "accordeon_13.png",
+        "label": "accordeon 1.3",
+        "misMatchThreshold": 4,
+        "url": "file://C:\\Users\\Asus\\Desktop\\html олимпиада\\project\\task-js\\component-1\\index.html?tabs_limit=0",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 2.003337236533958,
+          "misMatchPercentage": "2.00",
+          "analysisTime": 123
+        }
+      },
+      "status": "pass"
+    }
+  ]
+}

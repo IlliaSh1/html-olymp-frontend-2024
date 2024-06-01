@@ -1,0 +1,132 @@
+{
+  "testSuite": "BackstopJS",
+  "tests": [
+    {
+      "pair": {
+        "reference": "..\\..\\test-htmlcss\\reference\\header-desktop.png",
+        "test": "..\\bitmaps_test\\20240218-125442\\header-desktop.png",
+        "selector": "[data-test=\"header\"]",
+        "fileName": "header-desktop.png",
+        "label": "header",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.7,
+        "url": "file://C:\\Users\\Asus\\Desktop\\html олимпиада\\project\\task-htmlcss\\index.html",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.677662037037037,
+          "misMatchPercentage": "0.68",
+          "analysisTime": 75
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\..\\test-htmlcss\\reference\\header-tablet.png",
+        "test": "..\\bitmaps_test\\20240218-125442\\header-tablet.png",
+        "selector": "[data-test=\"header\"]",
+        "fileName": "header-tablet.png",
+        "label": "header",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.7,
+        "url": "file://C:\\Users\\Asus\\Desktop\\html олимпиада\\project\\task-htmlcss\\index.html",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.5523003472222222,
+          "misMatchPercentage": "0.55",
+          "analysisTime": 52
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\..\\test-htmlcss\\reference\\header-mobile.png",
+        "test": "..\\bitmaps_test\\20240218-125442\\header-mobile.png",
+        "selector": "[data-test=\"header\"]",
+        "fileName": "header-mobile.png",
+        "label": "header",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.3,
+        "url": "file://C:\\Users\\Asus\\Desktop\\html олимпиада\\project\\task-htmlcss\\index.html",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.035555555555555556,
+          "misMatchPercentage": "0.04",
+          "analysisTime": 26
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\..\\test-htmlcss\\reference\\header-overflow-desktop.png",
+        "test": "..\\bitmaps_test\\20240218-125442\\header-overflow-desktop.png",
+        "selector": "[data-test=\"header\"]",
+        "fileName": "header-overflow-desktop.png",
+        "label": "header-overflow",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 1,
+        "url": "file://C:\\Users\\Asus\\Desktop\\html олимпиада\\project\\task-htmlcss\\index.html",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 1.3336805555555555,
+          "misMatchPercentage": "1.33",
+          "analysisTime": 85
+        },
+        "diffImage": "..\\bitmaps_test\\20240218-125442\\failed_diff_header-overflow-desktop.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\..\\test-htmlcss\\reference\\header-overflow-mobile.png",
+        "test": "..\\bitmaps_test\\20240218-125442\\header-overflow-mobile.png",
+        "selector": "[data-test=\"header\"]",
+        "fileName": "header-overflow-mobile.png",
+        "label": "header-overflow",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 1,
+        "url": "file://C:\\Users\\Asus\\Desktop\\html олимпиада\\project\\task-htmlcss\\index.html",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 9.442222222222222,
+          "misMatchPercentage": "9.44",
+          "analysisTime": 55
+        },
+        "diffImage": "..\\bitmaps_test\\20240218-125442\\failed_diff_header-overflow-mobile.png"
+      },
+      "status": "fail"
+    }
+  ]
+}

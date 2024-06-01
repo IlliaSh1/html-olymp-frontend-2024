@@ -1,0 +1,137 @@
+{
+  "testSuite": "BackstopJS",
+  "tests": [
+    {
+      "pair": {
+        "reference": "..\\..\\test-htmlcss\\reference\\header-desktop.png",
+        "test": "..\\bitmaps_test\\20240218-115547\\header-desktop.png",
+        "selector": "[data-test=\"header\"]",
+        "fileName": "header-desktop.png",
+        "label": "header",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.7,
+        "url": "file://C:\\Users\\Asus\\Desktop\\html олимпиада\\project\\task-htmlcss\\index.html",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 1.1956018518518519,
+          "misMatchPercentage": "1.20",
+          "analysisTime": 70
+        },
+        "diffImage": "..\\bitmaps_test\\20240218-115547\\failed_diff_header-desktop.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\..\\test-htmlcss\\reference\\header-tablet.png",
+        "test": "..\\bitmaps_test\\20240218-115547\\header-tablet.png",
+        "selector": "[data-test=\"header\"]",
+        "fileName": "header-tablet.png",
+        "label": "header",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.7,
+        "url": "file://C:\\Users\\Asus\\Desktop\\html олимпиада\\project\\task-htmlcss\\index.html",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 45.172526041666664,
+          "misMatchPercentage": "45.17",
+          "analysisTime": 133
+        },
+        "diffImage": "..\\bitmaps_test\\20240218-115547\\failed_diff_header-tablet.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\..\\test-htmlcss\\reference\\header-mobile.png",
+        "test": "..\\bitmaps_test\\20240218-115547\\header-mobile.png",
+        "selector": "[data-test=\"header\"]",
+        "fileName": "header-mobile.png",
+        "label": "header",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.3,
+        "url": "file://C:\\Users\\Asus\\Desktop\\html олимпиада\\project\\task-htmlcss\\index.html",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 6.462222222222222,
+          "misMatchPercentage": "6.46",
+          "analysisTime": 54
+        },
+        "diffImage": "..\\bitmaps_test\\20240218-115547\\failed_diff_header-mobile.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\..\\test-htmlcss\\reference\\header-overflow-desktop.png",
+        "test": "..\\bitmaps_test\\20240218-115547\\header-overflow-desktop.png",
+        "selector": "[data-test=\"header\"]",
+        "fileName": "header-overflow-desktop.png",
+        "label": "header-overflow",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 1,
+        "url": "file://C:\\Users\\Asus\\Desktop\\html олимпиада\\project\\task-htmlcss\\index.html",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "engineErrorMsg": "Не удалось найти элемент содержащий текст «8 800 725-32-32» для тестирования переполнения",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 67.1125,
+          "misMatchPercentage": "67.11",
+          "analysisTime": 334
+        },
+        "diffImage": "..\\bitmaps_test\\20240218-115547\\failed_diff_header-overflow-desktop.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\..\\test-htmlcss\\reference\\header-overflow-mobile.png",
+        "test": "..\\bitmaps_test\\20240218-115547\\header-overflow-mobile.png",
+        "selector": "[data-test=\"header\"]",
+        "fileName": "header-overflow-mobile.png",
+        "label": "header-overflow",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 1,
+        "url": "file://C:\\Users\\Asus\\Desktop\\html олимпиада\\project\\task-htmlcss\\index.html",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "engineErrorMsg": "Не удалось найти элемент содержащий текст «8 800 725-32-32» для тестирования переполнения",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 89.84666666666666,
+          "misMatchPercentage": "89.85",
+          "analysisTime": 180
+        },
+        "diffImage": "..\\bitmaps_test\\20240218-115547\\failed_diff_header-overflow-mobile.png"
+      },
+      "status": "fail"
+    }
+  ]
+}

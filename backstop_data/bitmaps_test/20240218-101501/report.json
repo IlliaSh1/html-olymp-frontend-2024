@@ -1,0 +1,82 @@
+{
+  "testSuite": "BackstopJS",
+  "tests": [
+    {
+      "pair": {
+        "reference": "..\\..\\test-example\\reference\\header-desktop.png",
+        "test": "..\\bitmaps_test\\20240218-101501\\header-desktop.png",
+        "selector": "[data-test=\"header\"]",
+        "fileName": "header-desktop.png",
+        "label": "header",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 5,
+        "url": "file://C:\\Users\\Asus\\Desktop\\html олимпиада\\project\\task-example\\index.html",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.8459955682177904,
+          "misMatchPercentage": "0.85",
+          "analysisTime": 36
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\..\\test-example\\reference\\main-desktop.png",
+        "test": "..\\bitmaps_test\\20240218-101501\\main-desktop.png",
+        "selector": "[data-test=\"main\"]",
+        "fileName": "main-desktop.png",
+        "label": "main",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 5,
+        "url": "file://C:\\Users\\Asus\\Desktop\\html олимпиада\\project\\task-example\\index.html",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 91.37801502570186,
+          "misMatchPercentage": "91.38",
+          "analysisTime": 674
+        },
+        "diffImage": "..\\bitmaps_test\\20240218-101501\\failed_diff_main-desktop.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\..\\test-example\\reference\\footer-desktop.png",
+        "test": "..\\bitmaps_test\\20240218-101501\\footer-desktop.png",
+        "selector": "[data-test=\"footer\"]",
+        "fileName": "footer-desktop.png",
+        "label": "footer",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 5,
+        "url": "file://C:\\Users\\Asus\\Desktop\\html олимпиада\\project\\task-example\\index.html",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 40.390325670498086,
+          "misMatchPercentage": "40.39",
+          "analysisTime": 135
+        },
+        "diffImage": "..\\bitmaps_test\\20240218-101501\\failed_diff_footer-desktop.png"
+      },
+      "status": "fail"
+    }
+  ]
+}

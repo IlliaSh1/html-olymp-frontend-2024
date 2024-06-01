@@ -1,0 +1,77 @@
+{
+  "testSuite": "BackstopJS",
+  "tests": [
+    {
+      "pair": {
+        "reference": "..\\..\\test-js\\component-2\\reference\\slider_21.png",
+        "test": "..\\bitmaps_test\\20240218-172523\\slider_21.png",
+        "selector": "document",
+        "fileName": "slider_21.png",
+        "label": "slider 2.1",
+        "misMatchThreshold": 1,
+        "url": "file://C:\\Users\\Asus\\Desktop\\html олимпиада\\project\\task-js\\component-2\\index.html?pagination=1&loop=0",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0,
+          "misMatchPercentage": "0.00",
+          "analysisTime": 26
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\..\\test-js\\component-2\\reference\\slider_22.png",
+        "test": "..\\bitmaps_test\\20240218-172523\\slider_22.png",
+        "selector": "document",
+        "fileName": "slider_22.png",
+        "label": "slider 2.2",
+        "misMatchThreshold": 1,
+        "url": "file://C:\\Users\\Asus\\Desktop\\html олимпиада\\project\\task-js\\component-2\\index.html?pagination=1&loop=0",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0,
+          "misMatchPercentage": "0.00",
+          "analysisTime": 24
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\..\\test-js\\component-2\\reference\\slider_23.png",
+        "test": "..\\bitmaps_test\\20240218-172523\\slider_23.png",
+        "selector": "document",
+        "fileName": "slider_23.png",
+        "label": "slider 2.3",
+        "misMatchThreshold": 1,
+        "url": "file://C:\\Users\\Asus\\Desktop\\html олимпиада\\project\\task-js\\component-2\\index.html?pagination=1&loop=0",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0,
+          "misMatchPercentage": "0.00",
+          "analysisTime": 26
+        }
+      },
+      "status": "pass"
+    }
+  ]
+}

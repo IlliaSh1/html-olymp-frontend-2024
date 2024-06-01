@@ -1,0 +1,101 @@
+{
+  "testSuite": "BackstopJS",
+  "tests": [
+    {
+      "pair": {
+        "reference": "..\\..\\test-js\\component-1\\reference\\accordeon_31.png",
+        "test": "..\\bitmaps_test\\20240218-162941\\accordeon_31.png",
+        "selector": "document",
+        "fileName": "accordeon_31.png",
+        "label": "accordeon 3.1",
+        "misMatchThreshold": 4,
+        "url": "file://C:\\Users\\Asus\\Desktop\\html олимпиада\\project\\task-js\\component-1\\index.html?tabs_limit=3",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 1.4799180327868853,
+          "misMatchPercentage": "1.48",
+          "analysisTime": 150
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\..\\test-js\\component-1\\reference\\accordeon_32.png",
+        "test": "..\\bitmaps_test\\20240218-162941\\accordeon_32.png",
+        "selector": "document",
+        "fileName": "accordeon_32.png",
+        "label": "accordeon 3.2",
+        "misMatchThreshold": 4,
+        "url": "file://C:\\Users\\Asus\\Desktop\\html олимпиада\\project\\task-js\\component-1\\index.html?tabs_limit=3",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 2.4553864168618267,
+          "misMatchPercentage": "2.46",
+          "analysisTime": 165
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\..\\test-js\\component-1\\reference\\accordeon_33.png",
+        "test": "..\\bitmaps_test\\20240218-162941\\accordeon_33.png",
+        "selector": "document",
+        "fileName": "accordeon_33.png",
+        "label": "accordeon 3.3",
+        "misMatchThreshold": 4,
+        "url": "file://C:\\Users\\Asus\\Desktop\\html олимпиада\\project\\task-js\\component-1\\index.html?tabs_limit=3",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 2.924620371553717,
+          "misMatchPercentage": "2.92",
+          "analysisTime": 152
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\..\\test-js\\component-1\\reference\\accordeon_34.png",
+        "test": "..\\bitmaps_test\\20240218-162941\\accordeon_34.png",
+        "selector": "document",
+        "fileName": "accordeon_34.png",
+        "label": "accordeon 3.4",
+        "misMatchThreshold": 4,
+        "url": "file://C:\\Users\\Asus\\Desktop\\html олимпиада\\project\\task-js\\component-1\\index.html?tabs_limit=3",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 2.077400468384075,
+          "misMatchPercentage": "2.08",
+          "analysisTime": 148
+        }
+      },
+      "status": "pass"
+    }
+  ]
+}

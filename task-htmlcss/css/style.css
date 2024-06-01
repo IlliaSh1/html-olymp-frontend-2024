@@ -1,0 +1,295 @@
+/* Fonts */
+@font-face {
+  font-family: 'Montserrat';
+  src: url("../fonts/Montserrat-400.woff2");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url("../fonts/Montserrat-500.woff2");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url("../fonts/Montserrat-600.woff2");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url("../fonts/Montserrat-700.woff2");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Playfair';
+  src: url("../fonts/Playfair-700.woff2");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Playfair';
+  src: url("../fonts/Playfair-800.woff2");
+  font-weight: 800;
+}
+/* vars */
+:root {
+  /* colors */
+  --primary-color: #d2691e;
+  /* text color */
+  --white-text-color: #fff;
+}
+
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+html {
+  line-height: 1.5;
+  -webkit-text-size-adjust: 100%;
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.container {
+  max-width: 1440px;
+  margin-inline: auto;
+}
+
+/* Normalizing base elements */
+ul {
+  padding: 0;
+  margin: 0;
+
+  list-style-type: none;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+a {
+  color: inherit;
+
+  text-decoration: none;
+}
+
+.link {}
+
+
+/* Header */
+.header {
+  color: var(--white-text-color);
+  background-color: var(--primary-color);
+}
+
+.header__container {
+  padding: 15px 15px;
+}
+
+@media screen and (min-width: 767px) {
+  .header__container {
+    padding: 40px 75px 30px 75px;
+  }
+}
+
+/* Navigation */
+/* header navigation */
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+
+}
+
+.header__nav {}
+/* logo */
+.header__logo-link {
+  align-self: flex-end;
+  margin-right: 16px;
+}
+
+
+@media screen and (min-width: 767px) {
+  .header__logo-link {
+    align-self: flex-start;
+    display: block;
+    margin-right: calc(275px - 190px);
+  }
+}
+
+.logo-img {}
+
+.header__logo-img {
+  width: min-content;
+  height: 30px;
+
+}
+
+@media screen and (min-width: 767px) {
+  .header__logo-img {
+    width: min-content;
+    height: 50px;
+  }
+}
+
+/* Header nav__list */
+.nav__list {
+  gap: 20px 30px;
+
+  height: min-content;
+  width: 100%;
+
+  padding: 10px 30px;
+}
+
+.header__nav .nav__list {
+  display: none;
+  visibility: hidden;
+}
+
+@media screen and (min-width: 1024px) {
+  .header__nav .nav__list {
+    display: flex;
+    visibility: visible;
+  }
+
+}
+
+.nav__item {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  font-weight: lighter;
+}
+
+.nav__link {}
+
+.nav__contacts {
+  align-self: flex-end;
+  margin: 0;
+  margin-bottom: 7px;
+
+
+  font-size: .76rem;
+  font-weight: 600;
+}
+
+@media screen and (min-width: 767px) {
+  .nav__contacts {
+    margin-bottom: 5px;
+
+    font-size: 1rem;
+    font-weight: 600;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .nav__contacts {
+    align-self: auto;
+    font-size: 1.12rem;
+    font-weight: 600;
+  }
+}
+
+.header__nav .nav__contacts {
+  max-width: 275px;
+  width: 100%;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 767px) {
+  .header__nav .nav__contacts {
+    text-transform: none;
+  }
+}
+
+/* Main */
+/* Hero */
+
+.hero {
+  color: var(--white-text-color);
+  
+}
+
+.hero__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+
+  background-image: url("../imgs/hero_desktop.png");
+  background-size: cover;
+  height: 400px;
+  padding: 125px;
+}
+
+@media screen and (min-width: 767px) {
+  .hero__container {
+    height: 580px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .hero__container {
+    align-items: flex-start;
+  }
+}
+
+
+.hero__title {
+  margin: 0;
+
+  font-family: "Playfair";
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 800;
+
+
+  /* background-color: black; */
+  
+}
+
+@media screen and (min-width: 767px) {
+  .hero__title {
+    font-size: 3.5rem;
+
+  }
+}
+
+
+@media screen and (min-width: 1024px) {
+  .hero__title {
+    font-size: 4.8125rem;
+    text-align: left;
+  }
+}
+
+.hero__desc {
+  max-width: 500px;
+}
+
+@media screen and (min-width: 1024px) {
+  .hero__title {
+    text-align: left;
+  }
+}
+
+.button {
+  
+}
+
+.button--theme_primary {
+
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/style.css" rel="stylesheet">
+  <script src="js/script.js" defer></script>
+  <title>Компонент «Слайдер диапазона»</title>
+</head>
+<body>
+  <div class="range_container"
+      id="slider-1"
+  >
+    <div class="sliders_control">
+      <input class="fromSlider" name="from-slider-1" type="range" value="1" min="0" max="12"/>
+      <input class="toSlider" name="to-slider-1" type="range" value="6" min="0" max="12"/>
+    </div>
+    <div class="form_control">
+      <label class="form_control_container">
+        <span class="input_icon input_icon--left"></span>
+        <input class="form_input--number fromInput" name="from-input-1" type="text" value="1" min="0" max="12"/>
+      </label>
+      <label class="form_control_container">
+        <span class="input_icon input_icon--right"></span>
+        <input class="form_input--number toInput" name="to-input-1" type="text" value="6" min="0" max="12"/>
+      </label>
+    </div>
+  </div>
+
+  <div class="range_container"
+       id="slider-2"
+       data-range="range"
+       data-min-diff="0"
+       data-max-diff="12"
+  >
+    <div class="sliders_control">
+      <input class="fromSlider" name="from-slider-2" type="range" value="3" min="0" max="12"/>
+      <input class="toSlider" name="to-slider-2" type="range" value="8" min="0" max="12"/>
+    </div>
+    <div class="form_control">
+      <label class="form_control_container">
+        <span class="input_icon input_icon--left"></span>
+        <input class="form_input--number fromInput" name="from-input-2" type="text" value="3" min="0" max="12"/>
+      </label>
+      <label class="form_control_container">
+        <span class="input_icon input_icon--right"></span>
+        <input class="form_input--number toInput" name="to-input-2" type="text" value="8" min="0" max="12"/>
+      </label>
+    </div>
+  </div>
+
+  <div class="range_container"
+       id="slider-3"
+       data-range="range"
+       data-min-diff="2"
+       data-max-diff="4"
+  >
+    <div class="sliders_control">
+      <input class="fromSlider" name="from-slider-3" type="range" value="3" min="0" max="12"/>
+      <input class="toSlider" name="to-slider-3" type="range" value="6" min="0" max="12"/>
+    </div>
+    <div class="form_control">
+      <label class="form_control_container">
+        <span class="input_icon input_icon--left"></span>
+        <input class="form_input--number fromInput" name="from-input-3" type="text" value="3" min="0" max="12"/>
+      </label>
+      <label class="form_control_container">
+        <span class="input_icon input_icon--right"></span>
+        <input class="form_input--number toInput" name="to-input-3" type="text" value="6" min="0" max="12"/>
+      </label>
+    </div>
+  </div>
+</body>
+</html>
